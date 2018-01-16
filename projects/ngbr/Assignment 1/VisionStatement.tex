@@ -1,0 +1,69 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{lipsum}
+\usepackage{fix-cm}
+\begin{document}
+\begin {center}
+\huge \textbf {Text Block}\\
+Brice Ng, Leif Tsang\\
+ONID: ngbr, tsangl
+\\[2in]
+\end{center}
+
+\tableofcontents
+\newpage
+\section{Section 1}
+	\subsection{Problem}
+	 Driving and texting (distracted driving)
+	\begin{itemize}
+	\item Evidence of problem: According to the FCC, 1161 people daily are injured in distraction related crashes, and 8 are killed.\textsuperscript{1}  ODOT also reported that between 2011 	and 2015, there were 9951 crashes in Oregon.\textsuperscript{2}  The Department of Motor Vehicles website proclaims that 26 percent of all car crashes in 2014 involved a cell phone.	\textsuperscript{3}
+\end{itemize}
+\section{Section 2}
+	\subsection{Story}
+	\begin{flushleft}Amanda Clark, a teen residing in Oakdale, California, was broadsided when she ran a stop sign at an intersection as a result of distracted driving.  She lived, and promised to never text and drive.  One year and a day later, she lost control of her car and crashed off the highway while texting her roommate.  This is only one of the many tragic stories created by distracted driving, but this one in particular shows how much an app such as ours could save lives and help prevent these events from happening.\\
+\end{flushleft}
+\section{Section 3}
+	\subsection{Solution}
+	 Disable the temptation to text with a do not disturb mode while the car has approached high speeds.\\
+	\begin{itemize}
+	\item High level approach: The app will use google maps along with the gyroscope to tell whether the car is in motion to put the phone into a do not disturb mode.
+	\item Key differences of this approach to others:  Sleek, fast, lightweight, minimalistic power consumption
+	\item Features that make this effective or useful: Automatic detection, smooth feeling UI
+	\item Limitations, if any: Google maps, Android permissions for background apps
+	\item Resources needed to complete the project: Google Maps, gyroscope, Java or C++
+	\item Most serious challenges/risks and how to fix or minimize it:  One of our biggest challenges will be making efficient pathways between menus.  By adding features like Parental Controls, we would need to implent another set of menus and variables to override the default setting of no Parental Controls. For example, locking the ability to delete the app without permission or sending an email when the app has been uninstalled. \\
+\end{itemize}
+\section{Section 4}
+	\subsection{Features}
+	\begin{itemize}
+	\item Features we can turn off and on – 
+		\begin{itemize}
+			\item{Pleasant sound when activated or deactivated}
+			\item{Run on device startup}
+			\item{Parent control}
+			\begin{itemize}
+				\item{Lock settings behind a pass code}
+				\item{Don’t allow uninstall without passcode or send notification to parental account when uninstalled}
+				\item{Chose which features to disable}
+				\item{Notifications}
+				\begin{itemize}
+					\item{Driving habits and max speeds}
+					\item{Time driving}
+				\end{itemize}
+				\item{Set the threshold speed when activated}
+			\end{itemize}
+		\end{itemize}
+
+\end{itemize}
+\section{Section 5}
+	\subsection{Sources Cited}
+
+Sources Cited:\\
+\newline
+1.	“The Dangers of Distracted Driving.” Federal Communications Commission,\textit{ Federal Communications Commission}, 8 Sept. 2017, www.fcc.gov/consumers/guides/dangers-texting-while-driving.\\
+\newline
+2.	“MenuToggle Secondary Menu  Distracted Driving.” \textit{Oregon Department of Transportation : Distracted Driving : Safety : State of Oregon}, Oregon Department of Transportation, www.oregon.gov/ODOT/Safety/Pages/Distracted.aspx.\\
+\newline
+3.	“Texting and Driving.” \textit{DMV.org}, Department of Motor Vehicles, www.dmv.org/distracted-driving/texting-and-driving.php.
+
+\end{document}
